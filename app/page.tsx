@@ -7,10 +7,13 @@ export default function Home() {
         <main className="min-h-screen flex flex-col items-center bg-background text-foreground selection:bg-white selection:text-black">
             <Header />
 
-            {/* Hero section */}
-            <div className="w-full px-6 md:px-12 mt-32 md:mt-48 flex items-end">
-                <div className="w-full flex justify-end pb-12">
-                    <h1 className="text-2xl md:text-3xl font-medium max-w-[600px] leading-snug md:leading-relaxed text-foreground tracking-tight">
+            {/* Hero section grids into 8 columns */}
+            <div className="w-full grid grid-cols-8 gap-6 px-16 mt-32 md:mt-48 items-end">
+                {/* Empty left space, spans 4 cols */}
+                <div className="col-span-8 md:col-span-4 lg:col-span-5"></div>
+                {/* Right content, spans 3-4 cols */}
+                <div className="col-span-8 md:col-span-4 lg:col-span-3 pb-12">
+                    <h1 className="text-2xl md:text-3xl font-medium leading-snug md:leading-relaxed text-foreground tracking-tight">
                         Com mais de 7 anos de experiência, transformo ideias em marcas e produtos digitais atemporais.
                     </h1>
                 </div>
