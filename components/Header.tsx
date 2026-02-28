@@ -32,7 +32,7 @@ export default function Header() {
     return (
         <header className="w-full grid grid-cols-8 gap-6 px-16 py-8 text-sm uppercase tracking-wider text-muted font-medium">
             {/* Name (spans 3 columns) */}
-            <div className="col-span-8 md:col-span-3 text-foreground text-xl tracking-normal font-semibold">
+            <div className="col-span-8 md:col-span-3 text-foreground text-[64px] tracking-normal font-semibold">
                 CARLOS TAVARES
             </div>
 

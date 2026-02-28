@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import ProjectsList from "@/components/ProjectsList";
 import Footer from "@/components/Footer";
+import ScrollReveal from "@/components/ScrollReveal";
 
 export default function Home() {
     return (
@@ -13,9 +14,15 @@ export default function Home() {
                 <div className="col-span-8 md:col-span-4 lg:col-span-5"></div>
                 {/* Right content, spans 3-4 cols */}
                 <div className="col-span-8 md:col-span-4 lg:col-span-3 pb-12">
-                    <h1 className="text-2xl md:text-3xl font-medium leading-snug md:leading-relaxed text-foreground tracking-tight">
+                    <ScrollReveal
+                        baseOpacity={0.2}
+                        enableBlur
+                        baseRotation={3}
+                        blurStrength={2}
+                        textClassName="text-[clamp(1.6rem,2vw,3rem)] leading-[1.3] text-foreground font-medium tracking-tight"
+                    >
                         Com mais de 7 anos de experiência, transformo ideias em marcas e produtos digitais atemporais.
-                    </h1>
+                    </ScrollReveal>
                 </div>
             </div>
 

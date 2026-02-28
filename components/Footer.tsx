@@ -31,7 +31,7 @@ export default function Footer() {
 
             {/* Giant Typography Name */}
             <div className="col-span-8 flex justify-center items-end mt-16 md:mt-32 overflow-hidden pointer-events-none select-none">
-                <h2 className="text-[12vw] sm:text-[14vw] md:text-[15vw] leading-[0.8] font-bold text-foreground text-center tracking-tighter w-full whitespace-nowrap opacity-90 scale-y-110">
+                <h2 className="text-[150px] leading-[0.8] font-bold text-foreground text-center tracking-tighter w-full whitespace-nowrap opacity-90 scale-y-110">
                     CARLOS TAVARES
                 </h2>
             </div>
